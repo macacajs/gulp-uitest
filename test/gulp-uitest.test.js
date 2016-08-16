@@ -13,8 +13,10 @@
 
 'use strict';
 
-var gulp-uitest = require('..');
+var gulpUitest = require('..');
 
 describe('test', function() {
-
+  it('should be ok', function() {
+    gulpUitest.should.be.ok();
+  });
 });

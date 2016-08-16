@@ -1,14 +1,18 @@
 {
   "name": "gulp-uitest",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "gulp-uitest",
-  "keywords": ["gulp"],
+  "keywords": [
+    "gulp"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/xudafeng/gulp-uitest.git"
   },
   "dependencies": {
+    "through2": "^2.0.1",
+    "uitest": "^1.1.2"
   },
   "devDependencies": {
     "co-mocha": "*",
