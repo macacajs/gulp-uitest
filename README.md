@@ -27,6 +27,22 @@ $ npm i gulp-uitest --save-dev
 
 ## Usage
 
+```javascript
+var uitest = require('gulp-uitest');
+
+gulp.task('test', [], function() {
+  return gulp
+    .src('path/to/index.html')
+    .pipe(uitest({
+      width: 600,
+      height: 480,
+      hidpi: false,
+      useContentSize: true,
+      show: false
+    }));
+});
+```
+
 [macacajs/uitest](//github.com/macacajs/uitest)
 
 ## License
