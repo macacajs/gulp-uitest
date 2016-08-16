@@ -25,6 +25,10 @@
 $ npm i gulp-uitest --save-dev
 ```
 
+## Usage
+
+[macacajs/uitest](//github.com/macacajs/uitest)
+
 ## License
 
 The MIT License (MIT)
