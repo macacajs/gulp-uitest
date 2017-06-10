@@ -8,10 +8,10 @@
 
 [npm-image]: https://img.shields.io/npm/v/gulp-uitest.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/gulp-uitest
-[travis-image]: https://img.shields.io/travis/xudafeng/gulp-uitest.svg?style=flat-square
-[travis-url]: https://travis-ci.org/xudafeng/gulp-uitest
-[coveralls-image]: https://img.shields.io/coveralls/xudafeng/gulp-uitest.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/xudafeng/gulp-uitest?branch=master
+[travis-image]: https://img.shields.io/travis/macacajs/gulp-uitest.svg?style=flat-square
+[travis-url]: https://travis-ci.org/macacajs/gulp-uitest
+[coveralls-image]: https://img.shields.io/coveralls/macacajs/gulp-uitest.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/macacajs/gulp-uitest?branch=master
 [node-image]: https://img.shields.io/badge/node.js-%3E=_0.10-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
 [download-image]: https://img.shields.io/npm/dm/gulp-uitest.svg?style=flat-square
@@ -21,13 +21,13 @@
 
 ## Installment
 
-```shell
+``` bash
 $ npm i gulp-uitest --save-dev
 ```
 
 ## Usage
 
-```javascript
+``` javascript
 var uitest = require('gulp-uitest');
 
 gulp.task('test', [], function() {
@@ -48,5 +48,3 @@ gulp.task('test', [], function() {
 ## License
 
 The MIT License (MIT)
-
-Copyright (c) 2015 xdf
