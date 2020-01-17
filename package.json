@@ -1,6 +1,6 @@
 {
   "name": "gulp-uitest",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "gulp uitest",
   "keywords": [
     "gulp"
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "through2": "^2.0.1",
-    "uitest": "2"
+    "uitest": "5"
   },
   "devDependencies": {
     "co-mocha": "*",
