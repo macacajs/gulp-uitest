@@ -1,9 +1,10 @@
 'use strict';
 
-var gulpUitest = require('..');
+const assert = require('assert');
+const gulpUitest = require('..');
 
-describe('test', function() {
-  it('should be ok', function() {
-    gulpUitest.should.be.ok();
+describe('test', () => {
+  it('should be ok', () => {
+    assert(gulpUitest);
   });
 });
