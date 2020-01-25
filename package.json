@@ -15,19 +15,20 @@
     "uitest": "5"
   },
   "devDependencies": {
-    "co-mocha": "*",
-    "istanbul": "^0.4.5",
-    "jshint": "*",
+    "eslint": "^4.19.1",
+    "eslint-plugin-mocha": "^5.0.0",
+    "husky": "*",
     "mocha": "*",
-    "pre-commit": "1.1.1",
-    "should": "*"
+    "nyc": "^15.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
   },
   "scripts": {
-    "test": "make test",
-    "jshint": "make jshint"
+    "test": "nyc --reporter=lcov --reporter=text mocha",
+    "lint": "eslint --fix ."
   },
-  "pre-commit": [
-    "jshint"
-  ],
   "license": "MIT"
 }
